@@ -1,0 +1,80 @@
+::selection {background: #82E0AA;}
+::-moz-selection {background: #82E0AA;}
+::-webkit-selection {background: #82E0AA;}
+
+img {
+    width: 20px;
+}
+
+#ctrl-btn {
+    width: 150px;
+    /* transition-duration: 0.3s; */
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+.font-select {
+    font-size: 30px;
+}
+
+.col {
+    margin-top: 30px;
+}
+
+code {
+    font-family: "Consolas";
+}
+
+/* pre{
+    margin: 0 0 0;
+    outline: black solid thick;
+} */
+
+@font-face {
+    font-family: "Monaco";
+    src: url(../font/Monaco.ttf);
+}
+
+@font-face {
+    font-family: "Consolas";
+    src: url(../font/Consolas.ttf);
+}
+
+@font-face {
+    font-family: "DejaVuSansMono";
+    src: url(../font/DejaVuSansMono.ttf);
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(../font/AnonymousPro.ttf);
+}
+
+/* for block of numbers */
+.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: center;
+    color: #ccc;
+    /* border-right: 1px solid #CCC; */
+    vertical-align: top;
+    padding-right: 5px;
+
+    /* your custom style here */
+}
+
+/* for block of code */
+.hljs-ln-code {
+    padding-left: 1em !important;
+}
+
+div.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

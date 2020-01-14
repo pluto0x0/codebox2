@@ -1,0 +1,32 @@
+#editor {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.alert-container{
+    z-index: 1;
+}
+#editor{
+    z-index: 0;
+    min-height: 300px;
+    /* max-height: 100%; */
+}
+#edit-name{
+    width: 70%;
+}
+
+#tbl{
+    /* position: absolute; */
+    max-height: calc(100vh - 65px);
+    overflow: scroll;
+
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+#tbl::-webkit-scrollbar { width: 0 !important; }
+
+.breadcrumb{
+    /* margin-right: 50px; */
+}
